@@ -171,7 +171,7 @@ function u32ToHex(x: u64): u64 {
 
 	x |= 0x3030303030303030;
 
-	x += 0x27 * mask;
+	x += 0x27 * mask; >
 
 	return x;
 }
